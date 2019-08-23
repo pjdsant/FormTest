@@ -1,0 +1,15 @@
+C:\repositorios\FormTest\FormTest\bin\Debug\FormTest.exe.config
+C:\repositorios\FormTest\FormTest\bin\Debug\FormTest.exe
+C:\repositorios\FormTest\FormTest\bin\Debug\FormTest.pdb
+C:\repositorios\FormTest\FormTest\bin\Debug\RegMan.dll
+C:\repositorios\FormTest\FormTest\bin\Debug\winhctl.dll
+C:\repositorios\FormTest\FormTest\bin\Debug\winhctl.pdb
+C:\repositorios\FormTest\FormTest\obj\Debug\FormTest.csprojAssemblyReference.cache
+C:\repositorios\FormTest\FormTest\obj\Debug\FormTest.Form1.resources
+C:\repositorios\FormTest\FormTest\obj\Debug\FormTest.Properties.Resources.resources
+C:\repositorios\FormTest\FormTest\obj\Debug\FormTest.csproj.GenerateResource.cache
+C:\repositorios\FormTest\FormTest\obj\Debug\FormTest.csproj.CoreCompileInputs.cache
+C:\repositorios\FormTest\FormTest\obj\Debug\FormTest.csproj.CopyComplete
+C:\repositorios\FormTest\FormTest\obj\Debug\FormTest.exe
+C:\repositorios\FormTest\FormTest\obj\Debug\FormTest.pdb
+C:\repositorios\FormTest\FormTest\bin\Debug\RegMan.pdb
