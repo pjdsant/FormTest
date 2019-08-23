@@ -35,6 +35,7 @@
             this.txtIniRange = new System.Windows.Forms.TextBox();
             this.txtEndRange = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // button1
@@ -46,6 +47,7 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.button1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button1_MouseMove);
             // 
             // label1
             // 
@@ -86,11 +88,22 @@
             this.timer1.Interval = 5000;
             this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 25;
+            this.listBox1.Location = new System.Drawing.Point(449, 226);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(498, 454);
+            this.listBox1.TabIndex = 5;
+            this.listBox1.DoubleClick += new System.EventHandler(this.ListBox1_DoubleClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(992, 766);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.txtEndRange);
             this.Controls.Add(this.txtIniRange);
             this.Controls.Add(this.button2);
@@ -99,6 +112,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -112,6 +126,7 @@
         private System.Windows.Forms.TextBox txtIniRange;
         private System.Windows.Forms.TextBox txtEndRange;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
