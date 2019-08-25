@@ -32,7 +32,7 @@ namespace FormTest
             // Set the Current cursor, move the cursor's Position,
             // and set its clipping rectangle to the form. 
 
-
+            /*
 
             this.Cursor = new Cursor(Cursor.Current.Handle);
             Cursor.Position = new Point(Cursor.Position.X - 50, Cursor.Position.Y - 50);
@@ -44,19 +44,20 @@ namespace FormTest
             int position = ConvertMousePointToScreenIndex(Cursor.Position);
 
             txtIniRange.Text = position.ToString();
-
+            */
         }
 
         private void Button1_Click(object sender, EventArgs e)
-        {
-            WinApiX winApiX = new WinApiX();
-
+        {   /*
+            // WinApiX winApiX = new WinApiX();
             //label1.Text = winApiX.GetListItem("System Interact", 0, 0);
+            //winApiX.SetListItem("Sytem Interact", 0, 0);
+            //Point coordenadas = this.PointToClient(Cursor.Position);
+            */
 
-            winApiX.SetListItem("Sytem Interact", 0, 0);
+            UserApi userApi = new UserApi();
 
-            Point coordenadas = this.PointToClient(Cursor.Position);
-
+            userApi.SetListItem("System Interact", 0, 0);
 
         }
 
