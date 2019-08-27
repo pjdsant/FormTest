@@ -74,7 +74,6 @@ namespace FormTest
             public int Bottom;
         }
 
-
         public enum MouseEventFlag : uint
         {
             Move = 0x0001,
